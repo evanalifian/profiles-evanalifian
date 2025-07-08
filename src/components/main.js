@@ -1,14 +1,14 @@
 import data from "../../data.json";
 
 export default function Main() {
-  return html`
+  return /* HTML */`
     <main>
       <header class="relative">
         <img
           src="/evan2.jpg"
           alt="Evan Alifian' photo"
           title="Evan Alifian"
-          class="size-full"
+          class="size-full md:w-96"
         />
         <div
           class="absolute bottom-0 flex h-60 w-full flex-col justify-end bg-gradient-to-t from-white from-40% p-4 text-center"
