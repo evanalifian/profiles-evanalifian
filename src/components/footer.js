@@ -5,7 +5,7 @@ export default function Footer() {
   return /* HTML */`
     <footer class="mt-auto p-4">
       <p class="text-center text-sm text-gray-500">
-        Copyright &copy; ${year} ${data.alias}
+        &copy; ${year}, ${data.alias}.
       </p>
     </footer>
   `;
