@@ -2,9 +2,14 @@
   "name": "Evan Rafa Radya Alifian",
   "nickname": "evanalifian",
   "alias": "cnsl.lg",
-  "avatar": "/evan2.jpg",
-  "tagline": "Frontend developer based in Indonesia.",
-  "bio": "A frontend developer who works with React.js and Tailwind CSS. And currently learned python.",
+  "avatar": "/evan-nobg.png",
+  "tagline": "Experience to build website with React and Tailwind CSS",
+  "about": "Hello, i'm Evan Rafa Radya Alifian, a frontend developer from Bangkalan, East Java. Now i study in Universitas Trunojoyo Madura majoring informatic engineering. Curently, i learned DSA (Data Structure and Algorithms) using python.",
+  "contact": {
+    "email": "evanalifian@gmail.com",
+    "address": "Bangkalan, East Java",
+    "tel": "+62 878-5238-6596"
+  },
   "portfolio": "https://evanalifian.vercel.app",
   "socials": [
     {
