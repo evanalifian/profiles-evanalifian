@@ -2,10 +2,10 @@ import data from "../../data.json";
 
 export default function Main() {
   return /* HTML */ `
-    <main class="pb-32">
-      <div
-        class="aspect-2/1 w-full border-b border-zinc-300 bg-[url(/abstract-bg.jpeg)] bg-cover bg-center bg-no-repeat"
-      ></div>
+    <div
+      class="aspect-2/1 w-full border-b border-zinc-300 bg-[url(/abstract-bg.jpeg)] bg-cover bg-center bg-no-repeat md:aspect-auto md:h-56"
+    ></div>
+    <main class="mx-auto max-w-md pb-32">
       <header class="space-y-4 px-6">
         <figure class="mx-auto -mt-20 flex w-max flex-col items-center">
           <img
@@ -48,7 +48,7 @@ export default function Main() {
         <a
           href="/cv.pdf"
           target="_blank"
-          class="flex items-center gap-x-4 rounded-lg border border-zinc-300 p-4 bg-zinc-50 font-medium text-sm text-gray-900"
+          class="flex items-center gap-x-4 rounded-lg border border-zinc-300 bg-zinc-50 p-4 text-sm font-medium text-gray-900"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
